@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>My home page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+  <nav class="main-navigation container">
+       <!-- <a class="main-header-logo" href="">
+         <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии Nerds">
+       </a> -->
+       <ul class="site-navigation">
+          <li class="current-index"><a href="index.html">about</a></li>
+          <!-- <li><a href="#">клиенты</a></li> -->
+          <li><a href="catalog.html">projects</a></li>
+          <!-- <li><a href="#">контакты</a></li> -->
+       </ul>
+       <!-- <div class="user-navigation">
+        <a class="user-cart" href="#">
+        корзина</a>
+       </div> -->
+  </nav>
+</header>
+<main>
+  <h1 class="visually-hidden">Дизайн-студия Nerds</h1>
+  <section class="slider">
+    <div class="container">
+      <h2 class="visually-hidden">Преимущества</h2>
+      <input class="visually-hidden slider-1" type="radio" id="product-1" name="toggle" checked>
+      <input class="visually-hidden slider-2" type="radio" id="product-2" name="toggle" >
+      <input class="visually-hidden slider-3" type="radio" id="product-3" name="toggle" >
+      <div class="slider-controls">
+        <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+        <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+        <label class="slider-controls-item slider-controls-item--3" for="product-3">Третий</label>
+      </div>
+      <ul class="slider-list">
+        <li class="slider-item">
+          <h3>Welcome to my personal page!</h3>
+          <p>Hello!<br>
+            My name is Max and I am a beginner web developer.<br>*please scroll the slider*</p>
+          <!-- <a class="button button-learn-more" href="#">Узнать больше</a> -->
+        </li>
+        <li class="slider-item">
+          <h3>CSS3 makes the pages look great</h3>
+          <p>I started learning web programming couple of mounth ago</p>
+          <!-- <a class="button button-learn-more" href="#">Узнать больше</a> -->
+        </li>
+        <li class="slider-item">
+          <h3>Только ночь,<br> только хардкор</h3>
+          <p>Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
+          <!-- <a class="button button-learn-more" href="#">Узнать больше</a> -->
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="specialization container">
+    <h2 class="visually-hidden">Специализация</h2>
+    <ul class="specialization-list">
+      <li class="specialization-item">
+        <img src="img/illustration-1.png" width="300" height="146" alt="Сайт">
+
+        <h3>web sites</h3>
+        <p>
+          Мир никогда не будет прежним после того как увидит ваш сайт!
+        </p>
+
+        <!-- <a href="#" class="button to-order to-order-site">заказать</a> -->
+      </li>
+      <li class="specialization-item">
+        <img src="img/illustration-2.png" width="300" height="146" alt="Приложение">
+
+        <h3>responseve versions</h3>
+        <P>
+          Покорите топ-10 приложений в AppStore и Google Play
+        </P>
+
+        <!-- <a href="#" class="button to-order to-order-app">заказать</a> -->
+      </li>
+      <li class="specialization-item">
+        <img src="img/illustration-3.png" width="300" height="146" alt="Презентация">
+
+        <h3>apps</h3>
+        <P>
+          Вы даже не подозреваете, насколько мы изумительны!
+        </P>
+
+        <!-- <a href="#" class="button to-order to-order-presentation">заказать</a> -->
+      </li>
+    </ul>
+  </section>
+  <hr class="divide">
+  <section class="about-us container">
+   <div class="about-us-words">
+    <h2>Мы — маленькая, но гордая дизайн-студия из Краснодара. </h2>
+    <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+    <h3>Выполняем заказы на разработку:</h3>
+    <ul class="list-of-development">
+      <li>
+        <p>Веб-сайтов любой сложности</p>
+      </li>
+      <li>
+        <p>Мобильных приложений для IOS и Android</p>
+      </li>
+      <li>
+        <p>Слайдшоу и видео для корпоративных презентаций</p>
+      </li>
+    </ul>
+  </div>
+  <!-- <div class="about-us-numbers">
+   <img src="img/nerds-illustration.png" width="360" height="208" alt="Логотип дизайн-студии Nerds">
+   <h3>С 2004 года любим точность во всем:</h3>
+   <ul class="exact-numbers">
+     <li>
+       <span>146<sup>%</sup></span>
+       <p>Уровень самоотдачи</p>
+     </li>
+     <li>
+       <span>100<sup>%</sup></span>
+       <p>Соблюдение сроков</p>
+     </li>
+     <li>
+       <span>50<sup>%</sup></span>
+       <p>Минимальная предоплата</p>
+     </li>
+   </ul>
+  </div> -->
+</section>
+<hr class="divide">
+<section class="business-partners container">
+ <h2>My tech stack</h2>
+ <ul class="partners-list">
+  <li class="partners-item">
+   <a href="#">
+    <img src="img/html5.svg" width="199" height="68" alt="html" title="HTML5">
+   </a>
+  </li>
+  <li class="partners-item">
+   <a href="#">
+    <img src="img/css-logo.svg" width="209" height="90" alt="css" title="CSS3">
+   </a>
+  </li>
+  <li class="partners-item">
+   <a href="#">
+    <img src="img/Unofficial_JavaScript_logo_2.svg" width="190" height="57" alt="js" title="JavaScript">
+   </a>
+  </li>
+  <li class="partners-item">
+   <a href="#">
+    <img src="img/React-icon.svg" width="180" height="90" alt="react" title="React">
+   </a>
+  </li>
+ </ul>
+</section>
+<hr class="divide">
+<section class="map">
+ <h2 class="visually-hidden">Как добраться</h2>
+ <div class="container">
+  <div class="contact-information">
+    <span>Nёrds design studio</span>
+    <p>191186, Санкт-Петербург,
+    ул. Б. Конюшенная, д. 19/8</p>
+    <p>тел. +7 (812) 275-75-75</p>
+    <a class="button button-write-us" href="#">Write to me</a>
+  </div>
+ </div>
+  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533216!2d30.320858716006118!3d59.93871648187625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1552489981255" width="1516" height="415"  style="border:0" allowfullscreen>
+  </iframe> -->
+</section>
+<p class="my-projects">
+  My projects can be found <a href="catalog.html">HERE</a>
+</p>
+</main>
+<footer class="main-footer">
+ <div class="container">
+  <div class="footer-social">
+    <ul>
+      <!-- <li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span><svg xmlns="http://www.w3.org/2000/svg" width="27" height="15" viewBox="0 0 26.14 14.91">
+        <path d="M26 13.47l-.09-.17a13.55 13.55 0 0 0-2.6-3q-.87-.83-1.1-1.12A1 1 0 0 1 22 8a10.27 10.27 0 0 1 1.22-1.78l.88-1.16q2.35-3.13 2-4L26 .94a.8.8 0 0 0-.4-.22 2.14 2.14 0 0 0-.87 0h-3.92a.51.51 0 0 0-.27 0h-.3a.6.6 0 0 0-.15.14.93.93 0 0 0-.14.24 22.22 22.22 0 0 1-1.46 3.06q-.5.84-.93 1.46a7 7 0 0 1-.71.91 4.94 4.94 0 0 1-.52.47q-.23.18-.35.15l-.23-.05a.9.9 0 0 1-.31-.33 1.49 1.49 0 0 1-.16-.53v-.55-.65-.57-1.12-1-.75a3.14 3.14 0 0 0 0-.62 2.12 2.12 0 0 0-.14-.44.73.73 0 0 0-.28-.33 1.57 1.57 0 0 0-.46-.18A9 9 0 0 0 12.57 0a8.93 8.93 0 0 0-3.25.33 1.83 1.83 0 0 0-.52.41q-.25.3-.07.33a1.67 1.67 0 0 1 1.16.59l.08.16a2.6 2.6 0 0 1 .19.63 6.32 6.32 0 0 1 .12 1 10.59 10.59 0 0 1 0 1.7q-.07.71-.13 1.1a2.21 2.21 0 0 1-.18.64 2.69 2.69 0 0 1-.16.3l-.07.07a1 1 0 0 1-.37.07.86.86 0 0 1-.46-.19 3.27 3.27 0 0 1-.56-.52 7 7 0 0 1-.66-.93q-.37-.6-.76-1.42l-.22-.39q-.2-.38-.56-1.11t-.62-1.43A.9.9 0 0 0 5.2.9h-.07a.93.93 0 0 0-.22-.16A1.44 1.44 0 0 0 4.6.65L.87.68A1 1 0 0 0 .1.94L0 1a.44.44 0 0 0 0 .22 1.08 1.08 0 0 0 .08.37Q.9 3.53 1.86 5.31t1.66 2.87Q4.23 9.27 5 10.24t1 1.24l.37.41.34.33a8.06 8.06 0 0 0 1 .78 16.34 16.34 0 0 0 1.4.9 7.6 7.6 0 0 0 1.79.72 6.19 6.19 0 0 0 2 .22h1.57a1.08 1.08 0 0 0 .72-.3l.05-.07a.9.9 0 0 0 .1-.25 1.38 1.38 0 0 0 0-.37 4.48 4.48 0 0 1 .09-1.05 2.77 2.77 0 0 1 .23-.71 1.74 1.74 0 0 1 .29-.4 1.19 1.19 0 0 1 .23-.2h.11a.86.86 0 0 1 .77.21 4.52 4.52 0 0 1 .83.79q.39.47.93 1.05a6.41 6.41 0 0 0 1 .87l.27.16a3.31 3.31 0 0 0 .71.3 1.53 1.53 0 0 0 .76.07l3.48-.05a1.58 1.58 0 0 0 .8-.17.68.68 0 0 0 .34-.37 1.06 1.06 0 0 0 0-.46 1.71 1.71 0 0 0-.1-.36z" fill="#fff">
+        </path>
+      </svg>
+    </a></li> -->
+    <li><a class="social-button" href="https://github.com/mouxez" target="_blank"><span class="visually-hidden">github</span>
+      <img src="img/Git_icon-icons.com_66557.svg" alt="github" width="45" height="45">
+    </a></li>
+    <li><a class="social-button" href="https://www.facebook.com/profile.php?id=100010655255529" target="_blank"><span class="visually-hidden">facebook</span>
+      <img src="img/iconfinder-social-media-web-network-logo02-4584667_122300.svg" alt="facebook" width="40" height="40">
+    </a></li>
+  </ul>
+</div>
+<p class="footer-offer">
+  <b>Let's be friends!</b>
+</p>
+</div>
+</footer>
+<div class="feedback">
+ <p class="write-us">Write to me</p>
+ <form  class="form-field" action="https://echo.htmlacademy.ru" method="post">
+
+  <div class="field field-name">
+   <label for="fullname">Ваше имя:</label>
+   <input type="text" id="fullname" name="user-name" value="" placeholder="Имя Фамилия" required>
+ </div>
+ <div class="field field-email">
+  <label for="email">Ваш e-mail:</label>
+  <input type="email" id="email" name="email" placeholder="email@example.com" required>
+</div>
+<div class="field field-letter">
+  <label for="letter">Текст письма:</label>
+  <textarea id="letter" name="text-of-letter" placeholder="В свободной форме" required></textarea>
+</div>
+<button type="submit" class="button">Отправить</button>
+
+</form>
+<button class="feedback-close" type="button">Закрыть</button>
+</div>
+<script src="js/min-script.js">
+</script>
+</body>
+</html>
