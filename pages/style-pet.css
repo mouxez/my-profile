@@ -91,8 +91,13 @@ body {
   color: rgba(141, 116, 90, 0.3);
 }
 
+.sighn {
+  color: blue;;
+}
+
 .btn-quick-order {
   float: right;
+  color: #fff;
 }
 
 .promo {

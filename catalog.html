@@ -31,13 +31,13 @@
       My projects
      </h1>
   </div>
-  <p class="note"> <b>*</b> please note that filters, checkboxes and slider are not active and are presented to demonstrate my technology skills</p>
+  <p class="note"> <b>*</b> please note that filters, checkboxes and slider are not active and presented to demonstrate my technology skills</p>
   <div class="catalog-column container">
    <section class="filters-column">
-    <h2 class="visually-hidden">Фильтр</h2>
+    <h2 class="visually-hidden">Filter</h2>
     <form class="filters" action="/filters" method="post">
     <fieldset class="price">
-       <legend>Стоимость:</legend>
+       <legend>number of pages:</legend>
        <div class="range-filter">
         <div class="range-controls">
           <div class="scale">
@@ -47,12 +47,12 @@
           <div class="toggle toggle-max"></div>
         </div>
         <div class="price-controls">
-          <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-          <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+          <label class="min-price">from <input name="min-price" type="text" value="1"></label>
+          <label class="max-price">to <input name="max-price" type="text" value="3"></label>
         </div>
        </div>
     </fieldset>
-    <fieldset class="grid">
+    <!-- <fieldset class="grid">
       <legend>сетка:</legend>
       <ul class="gird-list">
         <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="adaptive" id="filter-adaptive"  tabindex="0" checked>
@@ -65,34 +65,34 @@
           <label for="filter-rubber">Резиновая</label>
         </li>
       </ul>
-    </fieldset>
+    </fieldset> -->
     <fieldset class="features">
-     <legend>особенности</legend>
+     <legend>features:</legend>
      <ul class="features-list">
       <li class="filter-option">
         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="silder" id="filter-slider"  tabindex="0" checked>
-        <label for="filter-slider" >Slider</label>
+        <label for="filter-slider">animated forms</label>
       </li>
       <li class="filter-option">
         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantage-block" id="filter-advantage-block" tabindex="0">
-        <label for="filter-advantage-block">Блок преимуществ</label>
+        <label for="filter-advantage-block">slider</label>
       </li>
       <li class="filter-option">
         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news"  tabindex="0" checked>
-        <label for="filter-news">News</label>
+        <label for="filter-news">responsive design</label>
       </li>
       <li class="filter-option">
         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery" tabindex="0">
-        <label for="filter-gallery">Gallery</label>
+        <label for="filter-gallery">mobile</label>
       </li>
       <li class="filter-option">
        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket"  disabled>
-       <label for="filter-basket">Basket</label>
+       <label for="filter-basket">others</label>
       </li>
      </ul>
     </fieldset>
  <button type="submit" class="filter-button button">
-  показать
+  show
 </button>
 </form>
 </section>
@@ -115,10 +115,10 @@
   </ul>
   <ul class="filter-sort filter-sort-arrows">
     <li class="filter-sort-item">
-      <a class="arrow arrow-down active" href="#">Убывание</a>
+      <a class="arrow arrow-down active" href="#">decrease</a>
     </li>
     <li class="filter-sort-item">
-      <a class="arrow arrow-up" href="#">Возрастание</a>
+      <a class="arrow arrow-up" href="#">increase</a>
     </li>
   </ul>
 </div>
@@ -129,44 +129,44 @@
     <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40" viewBox="0 0 360 40"><path fill="#4D4D4D" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.991 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
       <img src="img/sedona-1.png" height="576" width="360" alt="Sedona City">
     </a>
-    <!-- <div class="description">
-      <h3>Sedona
+    <div class="description">
+      <h3>Sedona City
       </h3>
       <p>
         Информационный сайт для туристов
       </p>
-      <a class="button-price button" href="#">9900 руб.</a>
-    </div> -->
+      <a class="button-price button" href="pages/index-sedona.html" target="_blank">show website</a>
+    </div>
   </li>
   <li class="catalog-item">
     <a href="pages/index-barbershop.html" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40" viewBox="0 0 360 40"><path fill="#4D4D4D" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.991 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
       <img src="img/barbershop-1.png" height="576" width="360" alt="Barbershop Helsinki">
     </a>  
-    <!-- <div class="description">
-      <h3>Pink App
+    <div class="description">
+      <h3>Barbershop Helsinki
       </h3>
       <p>
         Продуктовый лендинг приложения для iOS и Android
       </p>
-      <a class="button-price button" href="#">9900 руб.</a>
-    </div> -->
+      <a class="button-price button" href="pages/index-barbershop.html" target="_blank">show website</a>
+    </div>
   </li>
   <li class="catalog-item">
     <a href="pages/index-pet.html" target="_blank">
    <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40" viewBox="0 0 360 40"><path fill="#4D4D4D" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.991 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
-    <img src="img/pet-1.png" height="576" width="360" alt="Pet Accessories Store">
+    <img src="img/pet-1.png" height="576" width="360" alt="Cat Accessories Store">
     </a>
-  <!-- <div class="description">
-    <h3>Barbershop
+  <div class="description">
+    <h3>Cat Accessories Store
     </h3>
     <p>
       Сайт салона красоты.
       <br>
       Для мужчин, да.
     </p>
-    <a class="button-price button" href="#">9900 руб.</a>
-  </div> -->
+    <a class="button-price button" href="pages/index-pet.html" target="_blank">show website</a>
+  </div>
 </li>
 <!-- <li class="catalog-item">
  <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40" viewBox="0 0 360 40"><path fill="#4D4D4D" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.991 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
@@ -209,7 +209,7 @@
   <li class="pages-number pages-number-current"><a href="#">1</a></li>
   <li class="pages-number"><a href="#">2</a></li>
   <li class="pages-number"><a href="#">3</a></li>
-  <li class="pages-number"><a href="#">Следующая</a></li>
+  <li class="pages-number"><a href="#">Next</a></li>
 </ul>
 </section>
 

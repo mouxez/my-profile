@@ -58,7 +58,7 @@ input[type="radio"].visually-hidden
   font-weight:500;
   color:black;
   text-transform: uppercase;
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
   min-height: 200px;
 
   -webkit-box-pack: justify;
@@ -180,7 +180,7 @@ input[type="radio"].visually-hidden
 .title
 {
   width:100%;
-  background-color:#eeeeee;
+  background-color:#ffffff;
 }
 .page-title
 {
@@ -194,7 +194,8 @@ input[type="radio"].visually-hidden
 {
   margin-top:-20px;
   position: relative;
-  background-color:#eeeeee;
+  background-color:#eeee99;
+  min-height: 420px;
 }
 .slider-controls
 {
@@ -961,7 +962,7 @@ input[type="radio"].visually-hidden
 
 .price-controls input
 {
-  width: 60px;
+  width: 40px;
   padding: 8px 10px;
   margin-left: 10px;
 
@@ -974,7 +975,6 @@ input[type="radio"].visually-hidden
   border-radius: 5px;
   background: #f1f1f1;
 }
-
 .max-price {
   text-align: right;
 }
@@ -1018,7 +1018,7 @@ input[type="radio"].visually-hidden
 }
 .filter-sort-words
 {
-  margin-left:224px;
+  margin-left:390px;
   margin-right:-20px;
 }
 .filter-sort-arrows .arrow
