@@ -19,7 +19,7 @@ body {
   color: #000000;
 
   background-color: #f9f6f3;
-  background-image: url("../img/background-texture.jpg");
+  background-image: url("/img/background-texture.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
