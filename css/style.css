@@ -195,7 +195,7 @@ input[type="radio"].visually-hidden
   margin-top:-20px;
   position: relative;
   background-color:#eeee99;
-  min-height: 420px;
+  min-height: 410px;
 }
 .slider-controls
 {
@@ -1558,4 +1558,16 @@ input[type="radio"].visually-hidden
 }
 .my-projects {
   margin-left: 140px;
+}
+.css-span {
+  margin-left: 135px;
+}
+.html-span {
+  margin-left: 125px;
+}
+.js-span {
+  margin-left: 105px;
+}
+.git-span {
+  margin-left: 79px;
 }
