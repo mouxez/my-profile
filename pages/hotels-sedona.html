@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Sedona City</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style-sedona.css">
@@ -16,26 +16,26 @@
           </a>
           <nav class="site-navigation">
             <ul class="nav-list">
-              <li class="nav-item nav-item-1"><a href="#">tärkein</a></li>
-              <li class="nav-item nav-item-2"><a href="#">valokuva ja video</a></li>
-              <li class="nav-item nav-item-3"><a href="#">kartta</a></li>
-              <li class="nav-item nav-item-4 nav-item-active"><a href="#">hotellit</a></li>
+              <li class="nav-item nav-item-1"><a href="#">main</a></li>
+              <li class="nav-item nav-item-2"><a href="#">photo and video</a></li>
+              <li class="nav-item nav-item-3"><a href="#">map</a></li>
+              <li class="nav-item nav-item-4 nav-item-active"><a href="#">hotels</a></li>
             </ul>
           </nav>
         </div>
       </header>
       <main class="conteiner">
-        <h1 class="visually-hidden">Hae hotellit kohteessa Sedona</h1>
+        <h1 class="visually-hidden">Hotels search in Sedona</h1>
         <form class="filter-range">
           <div class="infrastructure">
-            <h3 class="filter-heading">infrastruktuuri:</h3>
+            <h3 class="filter-heading">Infrastructure:</h3>
             <label class="check">
               <input class="check-input" type="checkbox" name="pool" value="pool" checked>
-              <span class="check-box">uima-allas</span>
+              <span class="check-box">pool</span>
             </label>
             <label class="check">
               <input class="check-input" type="checkbox" name="parking" value="parking">
-              <span class="check-box">pysäköinti</span>
+              <span class="check-box">Parking</span>
             </label>
             <label class="check">
               <input class="check-input" type="checkbox" name="Wi-Fi" value="Wi-Fi">
@@ -43,22 +43,22 @@
             </label>
           </div>
           <div class="housing-type">
-            <h3 class="filter-heading">Asumisen tyyppi:</h3>
+            <h3 class="filter-heading">Type of housing:</h3>
             <label class="check">
               <input class="check-input" type="checkbox" name="pool" value="pool" checked>
-              <span class="check-box">hotelli</span>
+              <span class="check-box">hotel</span>
             </label>
             <label class="check">
               <input class="check-input" type="checkbox" name="parking" value="parking" checked>
-              <span class="check-box">motelli</span>
+              <span class="check-box">motel</span>
             </label>
             <label class="check">
               <input class="check-input" type="checkbox" name="Wi-Fi" value="Wi-Fi" checked>
-              <span class="check-box">huoneisto</span>
+              <span class="check-box">Apartment</span>
             </label>
           </div>
           <div class="range-price">
-            <div class="filter-heading">Hinta päivässä (euroa):</div>
+            <div class="filter-heading">Cost per day (euro):</div>
             <div class="price-controls">
               <label class="min-price"><input type="text" name="min-price" value="0"></label>
               <label class="max-price"><input type="text" name="max-price" value="300"></label>
@@ -70,16 +70,16 @@
               <div class="range-toggle range-toggle-min"></div>
               <div class="range-toggle range-toggle-max"></div>
             </div>
-            <button class="btn-transparent" type="submit">Näytä</button>
+            <button class="btn-transparent" type="submit">show</button>
           </div>
         </form>
         <div class="sorting">
           <div class="sotring-area-wrap">
-            <span class="found-objects">löydetty: 3</span>
-            <span class="sorting-by">lajittelu:</span>
-            <button class="price-btn sorting-btn" type="button">Hintaan</button>
-            <button class="type-btn sorting-btn" type="button">Tyypin mukaan</button>
-            <button class="rating-btn sorting-btn" type="button">etäisyys</button>
+            <span class="found-objects">Found: 3</span>
+            <span class="sorting-by">Sort by:</span>
+            <button class="price-btn sorting-btn" type="button">Price</button>
+            <button class="type-btn sorting-btn" type="button">Type</button>
+            <button class="rating-btn sorting-btn" type="button">rating</button>
             <span class="sorting-arrows">
               <button class="sorting-arrow-up sorting-btn"></button>
               <button class="sorting-arrow-down sorting-btn"></button>
@@ -87,7 +87,7 @@
           </div>
         </div>
         <div class="hotel-list-wrap">
-          <h2 class="visually-hidden">Hotelliluettelo</h2>
+          <h2 class="visually-hidden">Hotel list</h2>
           <ul class="hotels-list">
             <li>
               <div class="card card-1">
@@ -99,12 +99,12 @@
                     <h3 class="hotel-name">Amara Resort & Spa</h3>
                   </a>
                   <div class="institution-price">
-                    <span>hotelli</span>
-                    <span>alkaen 100&#8364;</span>
+                    <span>hotel</span>
+                    <span>from 100&#8364;</span>
                   </div>
                   <div class="btn-wrap">
-                    <a class="btn more-info" href="#">Lisätietoja</a>
-                    <a class="btn book" href="#">Varaa nyt</a>
+                    <a class="btn more-info" href="#">details</a>
+                    <a class="btn book" href="#">book</a>
                   </div>
                 </div>
                 <div class="rating">
@@ -114,7 +114,7 @@
                     <img src="/img/star-icon.svg" width="18" height="17" alt="icon-star">
                     <img src="/img/star-icon.svg" width="18" height="17" alt="icon-star">
                   </div>
-                  <span class="rating-score">luokitus: 8,5</span>
+                  <span class="rating-score">rating: 8,5</span>
                 </div>
               </div>
             </li>
@@ -128,12 +128,12 @@
                     <h3 class="hotel-name">Desert Quail Inn</h3>
                   </a>
                   <div class="institution-price">
-                    <span>motelli</span>
-                    <span>alkaen 200&#8364;</span>
+                    <span>motel</span>
+                    <span>from 200&#8364;</span>
                   </div>
                   <div class="btn-wrap">
-                    <a class="btn more-info" href="#">Lisätietoja</a>
-                    <a class="btn book" href="#">Varaa nyt</a>
+                    <a class="btn more-info" href="#">details</a>
+                    <a class="btn book" href="#">book</a>
                   </div>
                 </div>
                 <div class="rating">
@@ -142,7 +142,7 @@
                     <img src="/img/star-icon.svg" width="18" height="17" alt="icon-star">
                     <img src="/img/star-icon.svg" width="18" height="17" alt="icon-star">
                   </div>
-                  <span class="rating-score">luokitus: 8,9</span>
+                  <span class="rating-score">rating: 8,9</span>
                 </div>
               </div>
             </li>
@@ -156,12 +156,12 @@
                     <h3 class="hotel-name">Villas at Poco Diablo</h3>
                   </a>
                   <div class="institution-price">
-                    <span>huoneisto</span>
-                    <span>alkaen 300&#8364;</span>
+                    <span>Apartment</span>
+                    <span>from 300&#8364;</span>
                   </div>
                   <div class="btn-wrap">
-                    <a class="btn more-info" href="#">Lisätietoja</a>
-                    <a class="btn book" href="#">Varaa nyt</a>
+                    <a class="btn more-info" href="#">details</a>
+                    <a class="btn book" href="#">book</a>
                   </div>
                 </div>
                 <div class="rating">
@@ -169,7 +169,7 @@
                     <img src="/img/star-icon.svg" width="18" height="17" alt="icon-star">
                     <img src="/img/star-icon.svg" width="18" height="17" alt="icon-star">
                   </div>
-                  <span class="rating-score">luokitus: 9,2</span>
+                  <span class="rating-score">rating: 9,2</span>
                 </div>
               </div>
             </li>
