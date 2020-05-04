@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>My home page</title>
+  <title>My Home Page</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -22,13 +22,13 @@
       My projects
      </h1>
   </div>
-  <p class="note"> <b>*</b> please note that filters, checkboxes and sliders are not active and presented to demonstrate my technology skills. Active elements are marked as <span class="red">[CLICK ME]</span><br>* there are three projects in my portfolio</p>
+  <p class="note">* Пожалуйста, обратите внимание, что фильтры, чекбоксы и другие инструменты сортировки не активны и представлены для демонстрации навыков их создания. *&nbsp;Интерактивные элементы помечены <span class="red">[CLICK ME]</span><br>* В портфолио 4 проекта</p>
   <div class="catalog-column container">
    <section class="filters-column">
     <h2 class="visually-hidden">Filter</h2>
     <form class="filters" action="/filters" method="post">
     <fieldset class="price">
-       <legend>number of pages:</legend>
+       <legend>количество страниц у сайта:</legend>
        <div class="range-filter">
         <div class="range-controls">
           <div class="scale">
@@ -38,56 +38,56 @@
           <div class="toggle toggle-max"></div>
         </div>
         <div class="price-controls">
-          <label class="min-price">from <input name="min-price" type="text" value="1"></label>
-          <label class="max-price">to <input name="max-price" type="text" value="3"></label>
+          <label class="min-price">от <input name="min-price" type="text" value="1"></label>
+          <label class="max-price">до <input name="max-price" type="text" value="9"></label>
         </div>
        </div>
     </fieldset>
     <fieldset class="features">
-     <legend>features:</legend>
+     <legend>особенности:</legend>
      <ul class="features-list">
       <li class="filter-option">
         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="silder" id="filter-slider"  tabindex="0" checked>
-        <label for="filter-slider">animated forms</label>
+        <label for="filter-slider">с анимацией</label>
       </li>
       <li class="filter-option">
         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantage-block" id="filter-advantage-block" tabindex="0">
-        <label for="filter-advantage-block">slider</label>
+        <label for="filter-advantage-block">слайдер</label>
       </li>
       <li class="filter-option">
         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news"  tabindex="0" checked>
-        <label for="filter-news">responsive design</label>
+        <label for="filter-news">адаптивный сайт</label>
       </li>
       <li class="filter-option">
         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery" tabindex="0">
-        <label for="filter-gallery">mobile</label>
+        <label for="filter-gallery">мобильная версия</label>
       </li>
       <li class="filter-option">
        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket"  disabled>
-       <label for="filter-basket">others</label>
+       <label for="filter-basket">другое</label>
       </li>
      </ul>
     </fieldset>
  <button type="submit" class="filter-button button">
-  show
+  показать
 </button>
 </form>
 </section>
 <section class="catalog">
   <div class="sort-by">
-  <b>Sort by:</b>
+  <b>Фильтр:</b>
   <ul class="filter-sort filter-sort-words">
     <li class="filter-sort-item">
       <input class="visually-hidden list-input list-input-radio" type="radio" name="sort-group" value="price" id="filter-price" tabindex="0" checked>
-      <label for="filter-price">Price</label>
+      <label for="filter-price">Вид</label>
     </li>
     <li class="filter-sort-item">
       <input class="visually-hidden list-input list-input-radio" type="radio" name="sort-group" value="type" id="filter-type" tabindex="0">
-      <label for="filter-type">Type</label>
+      <label for="filter-type">Тип</label>
     </li>
     <li class="filter-sort-item">
       <input class="visually-hidden list-input list-input-radio" type="radio" name="sort-group" value="name" id="filter-name" tabindex="0">
-      <label for="filter-name">Name</label>
+      <label for="filter-name">Имя</label>
     </li>
   </ul>
   <ul class="filter-sort filter-sort-arrows">
@@ -102,24 +102,43 @@
 <h2 class="visually-hidden">Sites List</h2>
 <ul class="catalog-list">
   <li class="catalog-item">
+    <a href="pages/cat-energy/index.html" target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40" viewBox="0 0 360 40"><path fill="#4D4D4D" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.991 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+      <img src="img/cat-energy.png" height="576" width="360" alt="Cat Energy">
+    </a>
+    <div class="description">
+      <h3>Cat Energy
+      </h3>
+      <p>
+        HTML5 CSS3 JavaScript Gulp LESS 
+      </p>
+      <p>
+        Магазин спортивного питания для котов и кошек
+      </p>
+      <p>
+        Трёхстраничный адаптивный проект (mobile first), ретинизация графики, БЭМ, кастомные шрифты @font-face
+      </p>
+      <a class="button-price button" href="pages/cat-energy/index.html" target="_blank">show website</a>
+      <a class="button-price button" href="https://github.com/mouxez/1025673-cat-energy-18" target="_blank">show on GitHub</a>
+    </div>
+  </li>
+  <li class="catalog-item">
     <a href="pages/sedona-index.html" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40" viewBox="0 0 360 40"><path fill="#4D4D4D" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.991 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.011 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
       <img src="img/sedona-1.png" height="576" width="360" alt="Sedona City">
     </a>
     <div class="description">
-      <h3>Sedona City
+      <h3>Седона
       </h3>
       <p>
-        HTML5 CSS3 JS
+        HTML5 CSS3 JS Flexbox
       </p>
       <p>
-        - Sedona city is a website for travellers
+        Сайт для желающих посетить город Седона.
+        Твухстраничный проект без адаптивности.
       </p>
       <p>
-        - there are two active elements on the main page: <i>HOTELS</i> and <i>SEARCH HOTEL IN SEDONA</i>
-      </p>
-      <p>
-        - hotels search form animated using JavaScript
+       Форма поиска отелей анимирована с использованием JavaScript
       </p>
       <a class="button-price button" href="pages/sedona-index.html" target="_blank">show website</a>
       <a class="button-price button" href="https://github.com/mouxez/1025673-sedona-25" target="_blank">show on GitHub</a>
@@ -134,16 +153,14 @@
       <h3>Barbershop Helsinki
       </h3>
       <p>
-        HTML5 CSS3 JS
+        HTML5 CSS3 JS Flexbox
       </p>
       <p>
-        - fictional Barbershop in Helsinki
+        Сайт барбершопа в Хельсинки.
+        Трёхстраничный проект с каталогом товаров и карточкой продукта.
       </p>
       <p>
-        - there are JS animated <i>LOGIN</i> button and active link <i>SHOP</i> on the main page
-      </p>
-      <p>
-        - on the <i>SHOP</i> page there is one active catalog item <i>TRAVEL KIT "BAXTER OF CALIFORNIA"</i>
+        Рopup логина анимирован с использованием JavaScript
       </p>
       <a class="button-price button" href="pages/barbershop-index.html" target="_blank">show website</a>
       <a class="button-price button" href="https://github.com/mouxez/1025673-barbershop-25" target="_blank">show on GitHub</a>
@@ -155,16 +172,14 @@
     <img src="img/pet-1.png" height="576" width="360" alt="Cat Accessories Store">
     </a>
   <div class="description">
-    <h3>Cat Accessories Store
+    <h3>Магазин аксессуаров для котов
     </h3>
     <p>
       HTML5 CSS3
     </p>
     <p>
-      - landing page for Cat Accessories Store
-    </p>
-    <p>
-      - the site is made in a comic manner
+      Сайт выполнен в юмористическом стиле.
+      Лендинг страница.
     </p>
     <a class="button-price button" href="pages/pet-index.html" target="_blank">show website</a>
     <a class="button-price button" href="https://github.com/mouxez/pet_accessories_store" target="_blank">show on GitHub</a>
@@ -175,7 +190,7 @@
   <li class="pages-number pages-number-current"><a href="#">1</a></li>
   <li class="pages-number"><a href="#">2</a></li>
   <li class="pages-number"><a href="#">3</a></li>
-  <li class="pages-number"><a href="#">Next</a></li>
+  <li class="pages-number"><a href="#">Далее</a></li>
 </ul>
 </section>
 
@@ -195,7 +210,7 @@
     </ul>
 </div>
 <p class="footer-offer">
-  <b>Visit my profiles!</b>
+  <b>Please, visit my profiles!</b>
 </p>
 </div>
 </footer>
