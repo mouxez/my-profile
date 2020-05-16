@@ -1,182 +1,217 @@
-
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="utf-8">
   <title>My Home Page</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+    m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(62865112, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/62865112" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
 </head>
+
 <body>
-<header class="main-header">
-  <nav class="main-navigation container">
-       <ul class="site-navigation">
-          <li class="current-index"><a href="index.html">about</a></li>
-          <li><a href="catalog.html">projects</a></li>
-       </ul>
-  </nav>
-</header>
-<main>
-  <h1 class="visually-hidden">Facts</h1>
-  <section class="slider">
-    <div class="container">
-      <h2 class="visually-hidden">advantages</h2>
-      <input class="visually-hidden slider-1" type="radio" id="product-1" name="toggle" checked>
-      <input class="visually-hidden slider-2" type="radio" id="product-2" name="toggle" >
-      <input class="visually-hidden slider-3" type="radio" id="product-3" name="toggle" >
-      <div class="slider-controls">
-        <label class="slider-controls-item slider-controls-item--1" for="product-1">first</label>
-        <label class="slider-controls-item slider-controls-item--2" for="product-2">second</label>
-        <label class="slider-controls-item slider-controls-item--3" for="product-3">third</label>
+  <header class="main-header">
+    <nav class="main-navigation container">
+      <ul class="site-navigation">
+        <li class="current-index"><a href="index.html">about</a></li>
+        <li><a href="catalog.html">projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Facts</h1>
+    <section class="slider">
+      <div class="container">
+        <h2 class="visually-hidden">advantages</h2>
+        <input class="visually-hidden slider-1" type="radio" id="product-1" name="toggle" checked>
+        <input class="visually-hidden slider-2" type="radio" id="product-2" name="toggle">
+        <input class="visually-hidden slider-3" type="radio" id="product-3" name="toggle">
+        <div class="slider-controls">
+          <label class="slider-controls-item slider-controls-item--1" for="product-1">first</label>
+          <label class="slider-controls-item slider-controls-item--2" for="product-2">second</label>
+          <label class="slider-controls-item slider-controls-item--3" for="product-3">third</label>
+        </div>
+        <ul class="slider-list">
+          <li class="slider-item">
+            <h3>Привет!<br>Меня зовут Максим</h3>
+            <p class="slider-text">и я разработчик Web интерфейсов</p>
+          </li>
+          <li class="slider-item">
+            <h3>Рад видеть вас на<br>моей странице!</h3>
+            <p>Активно изучаю Web разработку<br>и уже получил результат</p>
+          </li>
+          <li class="slider-item">
+            <h3>Приглашаю познакомиться<br>с моими проектами</h3>
+            <p>Найти их можно <a href="catalog.html" target="_blank">ЗДЕСЬ</a><br>Больше можно увидеть на <a
+                href="https://github.com/mouxez" target="_blank">GitHub</a></p>
+          </li>
+        </ul>
       </div>
-      <ul class="slider-list">
-        <li class="slider-item">
-          <h3>Привет!<br>Меня зовут Максим</h3>
-          <p class="slider-text">и я разработчик Web интерфейсов</p>
+    </section>
+
+    <section class="specialization container">
+      <h2 class="specialization">
+        Почему Веб разработка?<br>
+        <span class="specialization-text">Искренне верю, что с помощью этих инструментов мы сможем сделать мир намного
+          лучше для каждого из нас:</span>
+      </h2>
+      <ul class="specialization-list">
+        <li class="specialization-item">
+          <img src="img/illustration-1.png" width="300" height="146" alt="Сайт">
+          <h3>web sites</h3>
         </li>
-        <li class="slider-item">
-          <h3>Рад видеть вас на<br>моей странице!</h3>
-          <p>Активно изучаю Web разработку<br>и уже получил результат</p>
+        <li class="specialization-item">
+          <img src="img/illustration-2.png" width="300" height="146" alt="Приложение">
+          <h3>mobile versions</h3>
         </li>
-        <li class="slider-item">
-          <h3>Приглашаю познакомиться<br>с моими проектами</h3>
-          <p>Найти их можно <a href="catalog.html" target="_blank">ЗДЕСЬ</a><br>Больше можно увидеть на <a href="https://github.com/mouxez" target="_blank">GitHub</a></p>
+        <li class="specialization-item">
+          <img src="img/illustration-3.png" width="300" height="146" alt="Презентация">
+          <h3>web apps</h3>
         </li>
       </ul>
+    </section>
+    <hr class="divide">
+    <section class="about-us container">
+      <div class="about-us-words">
+        <h3>Список успешно пройденных курсов:</h3>
+        <ul class="list-of-development">
+          <li>
+            <p>SoloLearn <i><b>HTML Fundamentals</b></i> [Базовый курс по основам HTML5 и CSS3]</p>
+          </li>
+          <li>
+            <p>HTML Academy <i><b>Профессиональный HTML CSS 1 уровень</b></i> [60-дневный интенсив с обязательным
+              выполнением личного проекта. Кроссбраузерная вёрстка на флексах, семантическая разметка, базовая анимация
+              на JS и CSS]</p>
+          </li>
+          <li>
+            <p>HTML Academy <i><b>Профессиональный HTML CSS 2 уровень</b></i> [60-дневный интенсив с обязательным
+              выполнением личного проекта. Автоматизация, препроцессоры LESS и SASS, сборка на Gulp, работа с Node.js и
+              пакетами npm.js, БЭМ, работа с API, ретинизация и адаптация графики, работа с графическими утилитами]</p>
+          </li>
+          <li>
+            <p>HTML Academy <i><b>Профессиональный JavaScript 1 уровень</b></i> [60-дневный интенсив с обязательным
+              выполнением личного проекта. Профессиональная разработка интерфейсов на ES5, структуры данных, обработки
+              событий, работа с сетью, управление DOM деревом]</p>
+          </li>
+          <li>
+            <p>HTML Academy <i><b>Профессиональный JavaScript 2 уровень</b></i> [60-дневный интенсив с обязательным
+              выполнением личного проекта. Сложная архитектура клиентских приложений на ES6. Модули, структуры данных,
+              ООП, инкапсуляция, наследование, полиморфизм, датабиндинг, REST и REST API]</p>
+          </li>
+          <li>
+            <p>Udemy <i><b>React & Redux course</b></i> [Базовый курс по основам React и Redux]</p>
+          </li>
+          <li>
+            <p>Udemy <i><b>The Web Developer Bootcamp</b></i> [Курс охватывает HTML5/CSS3, JavaScript, Bootstrap, работа
+              с API и Node.js]</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <hr class="divide">
+    <section class="business-partners container">
+      <h2>My tech stack</h2>
+      <ul class="partners-list">
+        <li class="partners-item">
+          <a>
+            <img src="img/html5.svg" width="199" height="68" alt="html" title="HTML5">
+          </a>
+          <span class="html-span">HTML5</span>
+        </li>
+        <li class="partners-item">
+          <a>
+            <img src="img/css-logo.svg" width="209" height="90" alt="css" title="CSS3">
+          </a>
+          <span class="css-span">CSS3</span>
+        </li>
+        <li class="partners-item">
+          <a>
+            <img src="img/Unofficial_JavaScript_logo_2.svg" width="190" height="57" alt="js" title="JavaScript">
+          </a>
+          <span class="js-span">JavaScript</span>
+        </li>
+        <li class="partners-item">
+          <a>
+            <img src="/img/git_icon.png" width="80" height="80" alt="git" title="Git">
+          </a>
+          <span class="git-span">Git</span>
+        </li>
+      </ul>
+    </section>
+    <hr class="divide">
+    <section class="map">
+      <h2 class="visually-hidden">Write to me</h2>
+      <div class="container">
+        <div class="contact-information">
+          <span>Написать мне</span>
+          <p>Буду рад ответить на любой вопрос</p>
+          <a class="button button-write-us" href="#">Write to me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button" href="https://github.com/mouxez" target="_blank"><span
+                class="visually-hidden">github</span>
+              <img src="img/Git_icon-icons.com_66557.svg" alt="github" width="45" height="45">
+            </a></li>
+          <li><a class="social-button" href="https://www.linkedin.com/in/mouxez/" target="_blank"><span
+                class="visually-hidden">linkedin</span>
+              <img src="/img/linkedin.svg" alt="linkedin" width="40" height="40">
+            </a></li>
+        </ul>
+      </div>
+      <p class="footer-offer">
+        <b>Please, visit my profiles!</b>
+      </p>
     </div>
-  </section>
+  </footer>
+  <div class="feedback">
+    <p class="write-us">Write to me</p>
+    <form class="form-field" action="#" method="post">
 
-  <section class="specialization container">
-    <h2 class="specialization">
-      Почему Веб разработка?<br>
-      <span class="specialization-text">Искренне верю, что с помощью этих инструментов мы сможем сделать мир намного лучше для каждого из нас:</span>
-    </h2>
-    <ul class="specialization-list">
-      <li class="specialization-item">
-        <img src="img/illustration-1.png" width="300" height="146" alt="Сайт">
-        <h3>web sites</h3>
-      </li>
-      <li class="specialization-item">
-        <img src="img/illustration-2.png" width="300" height="146" alt="Приложение">
-        <h3>mobile versions</h3>
-      </li>
-      <li class="specialization-item">
-        <img src="img/illustration-3.png" width="300" height="146" alt="Презентация">
-        <h3>web apps</h3>
-      </li>
-    </ul>
-  </section>
-  <hr class="divide">
-  <section class="about-us container">
-   <div class="about-us-words">
-    <h3>Список успешно пройденных курсов:</h3>
-    <ul class="list-of-development">
-      <li>
-        <p>SoloLearn <i><b>HTML Fundamentals</b></i> [Базовый курс по основам HTML5 и CSS3]</p>
-      </li>
-      <li>
-        <p>HTML Academy <i><b>Профессиональный HTML CSS 1 уровень</b></i> [60-дневный интенсив с обязательным выполнением личного проекта. Кроссбраузерная вёрстка на флексах, семантическая разметка, базовая анимация на JS и CSS]</p>
-      </li>
-      <li>
-        <p>HTML Academy <i><b>Профессиональный HTML CSS 2 уровень</b></i> [60-дневный интенсив с обязательным выполнением личного проекта. Автоматизация, препроцессоры LESS и SASS, сборка на Gulp, работа с Node.js и пакетами npm.js, БЭМ, работа с API, ретинизация и адаптация графики, работа с графическими утилитами]</p>
-      </li>
-      <li>
-        <p>HTML Academy <i><b>Профессиональный JavaScript 1 уровень</b></i> [60-дневный интенсив с обязательным выполнением личного проекта. Профессиональная разработка интерфейсов на ES5, структуры данных, обработки событий, работа с сетью, управление DOM деревом]</p>
-      </li>
-      <li>
-        <p>HTML Academy <i><b>Профессиональный JavaScript 2 уровень</b></i> [60-дневный интенсив с обязательным выполнением личного проекта. Сложная архитектура клиентских приложений на ES6. Модули, структуры данных, ООП, инкапсуляция, наследование, полиморфизм, датабиндинг, REST и REST API]</p>
-      </li>
-      <li>
-        <p>Udemy <i><b>React & Redux course</b></i> [Базовый курс по основам React и Redux]</p>
-      </li>
-      <li>
-        <p>Udemy <i><b>The Web Developer Bootcamp</b></i> [Курс охватывает HTML5/CSS3, JavaScript, Bootstrap, работа с API и Node.js]</p>
-      </li>
-    </ul>
+      <div class="field field-name">
+        <label for="fullname">Ваше имя:</label>
+        <input type="text" id="fullname" name="user-name" value="" placeholder="Иван" required>
+      </div>
+      <div class="field field-email">
+        <label for="email">Ваш e-mail:</label>
+        <input type="email" id="email" name="email" placeholder="email@example.com" required>
+      </div>
+      <div class="field field-letter">
+        <label for="letter">Сообщение:</label>
+        <textarea id="letter" name="text-of-letter"
+          placeholder="Внимание! Эта форма создана в ДЕМО целях. Пожалуйста, используйте адрес почты mouxez@gmail.com для связи со мной"
+          required></textarea>
+      </div>
+      <button type="submit" class="button">Отправить</button>
+
+    </form>
+    <button class="feedback-close" type="button">Закрыть</button>
   </div>
-</section>
-<hr class="divide">
-<section class="business-partners container">
- <h2>My tech stack</h2>
- <ul class="partners-list">
-  <li class="partners-item">
-   <a>
-    <img src="img/html5.svg" width="199" height="68" alt="html" title="HTML5">
-   </a>
-   <span class="html-span">HTML5</span>
-  </li>
-  <li class="partners-item">
-   <a>
-    <img src="img/css-logo.svg" width="209" height="90" alt="css" title="CSS3">
-   </a>
-   <span class="css-span">CSS3</span>
-  </li>
-  <li class="partners-item">
-   <a>
-    <img src="img/Unofficial_JavaScript_logo_2.svg" width="190" height="57" alt="js" title="JavaScript">
-   </a>
-   <span class="js-span">JavaScript</span>
-  </li>
-  <li class="partners-item">
-   <a>
-    <img src="/img/git_icon.png" width="80" height="80" alt="git" title="Git">
-   </a>
-   <span class="git-span">Git</span>
-  </li>
- </ul>
-</section>
-<hr class="divide">
-<section class="map">
- <h2 class="visually-hidden">Write to me</h2>
- <div class="container">
-  <div class="contact-information">
-    <span>Написать мне</span>
-    <p>Буду рад ответить на любой вопрос</p>
-    <a class="button button-write-us" href="#">Write to me</a>
-  </div>
- </div>
-</section>
-</main>
-<footer class="main-footer">
- <div class="container">
-  <div class="footer-social">
-    <ul>
-    <li><a class="social-button" href="https://github.com/mouxez" target="_blank"><span class="visually-hidden">github</span>
-      <img src="img/Git_icon-icons.com_66557.svg" alt="github" width="45" height="45">
-    </a></li>
-    <li><a class="social-button" href="https://www.linkedin.com/in/mouxez/" target="_blank"><span class="visually-hidden">linkedin</span>
-      <img src="/img/linkedin.svg" alt="linkedin" width="40" height="40">
-    </a></li>
-  </ul>
-</div>
-<p class="footer-offer">
-  <b>Please, visit my profiles!</b>
-</p>
-</div>
-</footer>
-<div class="feedback">
- <p class="write-us">Write to me</p>
- <form  class="form-field" action="#" method="post">
-
-  <div class="field field-name">
-   <label for="fullname">Ваше имя:</label>
-   <input type="text" id="fullname" name="user-name" value="" placeholder="Иван" required>
- </div>
- <div class="field field-email">
-  <label for="email">Ваш e-mail:</label>
-  <input type="email" id="email" name="email" placeholder="email@example.com" required>
-</div>
-<div class="field field-letter">
-  <label for="letter">Сообщение:</label>
-  <textarea id="letter" name="text-of-letter" placeholder="Внимание! Эта форма создана в ДЕМО целях. Пожалуйста, используйте адрес почты mouxez@gmail.com для связи со мной" required></textarea>
-</div>
-<button type="submit" class="button">Отправить</button>
-
-</form>
-<button class="feedback-close" type="button">Закрыть</button>
-</div>
-<script src="js/script.js">
-</script>
+  <script src="js/script.js">
+  </script>
 </body>
+
 </html>
